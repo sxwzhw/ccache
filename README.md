@@ -14,7 +14,9 @@ ccache使用
 sudo gedit ~/.bashrc
 添加export USE_CCACHE=1
 
+
 2. 设置cache的大小
+
 在目录下运行
 
 prebuilts/misc/linux-x86/ccache/ccache -M 25G
