@@ -1,9 +1,12 @@
 ccache
 ======
 这个脚本是安装ccache的脚本。
+
 使用方法：
+
 1.权限
 chmod 777 ccache.sh
+
 2.运行
 ./ccache.sh
 
@@ -15,8 +18,7 @@ sudo gedit ~/.bashrc
 添加export USE_CCACHE=1
 
 
-2. 设置cache的大小
-
+2.设置大小
 在目录下运行
 
 prebuilts/misc/linux-x86/ccache/ccache -M 25G
